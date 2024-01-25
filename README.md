@@ -32,6 +32,8 @@ cd naksa.ns88-dot.git
 
 # Usage
 
+![Usage example](image.png)
+
 # Features
 
 - User-friendly interface
