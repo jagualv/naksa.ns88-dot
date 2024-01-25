@@ -36,10 +36,10 @@ cd naksa.ns88-dot.git
 
 # Features
 
-- User-friendly interface
-- Add to Cart your products
-- Responsive design for mobile and desktop
-- Developed with HTML, CSS, JS & Bootstrap
+- **User-friendly interface**
+- **Add to Cart your products**
+- **Responsive design for mobile and desktop**
+- **Developed with HTML, CSS, JS & Bootstrap**
 
 # Contributing 
 We warmly welcome contributions from the community and are thrilled to have interest from MSMK University and Open-Source Developer users.
@@ -52,7 +52,7 @@ We warmly welcome contributions from the community and are thrilled to have inte
 
 # Credits
 
-This project would not have been possible without the valuable contributions and support from a number of individuals and organizations. We extend our heartfelt thanks to all who have helped make this project a success.
+This project would not have been possible without the valuable contributions and support from a number of individuals developers. We extend our heartfelt thanks to all who have helped make this project a success.
 
 ### Developers
 - jagualv
