@@ -27,7 +27,7 @@ First, clone the project repository to your local machine:
 
 ```bash
 git clone https://github.com/jagualv/naksa.ns88-dot.git
-cd naksa.ns88-dot.git
+cd naksa.ns88-dot
 ```
 
 # Usage
