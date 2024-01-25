@@ -10,7 +10,7 @@ Our inventory includes a diverse range of products, from cutting-edge processors
 - [Features](#features)
 - [Contributing](#contributing)
 - [Credits](#credits)
-- [License](#license)
+- [License](LICENSE)
 
 # Installation 
 
