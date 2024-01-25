@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jacobo Artem Guinot Almenar">
+    <meta name="copyright" content="Not a Human 2023">
+    <meta name="application-name" content="Shop Online">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');</style>
+    <script src="https://kit.fontawesome.com/c85a1183a7.js" crossorigin="anonymous"></script>
+    <title>DOT.</title>
+</head>
+
+<body>
+    <header class="header header-2">
+
+        <!-- Menú de navegación de la página. -->
+        <div class="menu container">
+            <a href="index.html" class="logo">
+                <span class="color2">Dot</span><span class="color1">.com</span>
+            </a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <i class="fa fa-bars icon-menu" aria-hidden="true"></i>
+            </label>
+            <nav class="navbar">
+                <ul id="navbar-id">
+                    <li><a href="./index.html" class="index">Home</a></li>
+                    <li><a href="./pages/products.html" class="index">Products</a></li>
+                    <li><a href="./pages/community.html" class="index">Community</a></li>
+                    <li><a href="./pages/downloads.html" class="index">Downloads</a></li>
+                    <li><a href="./pages/contact.html" class="index">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Menú desplegable del carrito de compra.  -->
+            <div>
+                <ul>
+                    <li class="cart-menu">
+                        <i class="fa fa-shopping-cart" id="cart-icon" aria-hidden="true"></i>
+                        <div id="cart">
+                            <table id="cart-list">
+                                <div class="cart-table">
+                                    <thead>
+                                        <tr class="cart-items">
+                                            <th>Product</th>
+                                            <th>Name</th>
+                                            <th>Price</th>
+                                            <th>Quantity</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </div>
+                            </table>
+                            <div id="cart-total">Total = <span id="total-amount" class="color2">0.00</span>€</div>
+                            <a href="#" id="empty-cart" class="btn-2"><span class="color2">Empty </span>Cart</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Mensaje de bienvenida. -->
+        <div class="header-content container">
+            <div class="header-image">
+                <video class="rounded-video" id="video-presentation">
+                    <source src="video/video-presentation.mp4" type="video/mp4">
+                    Your web browser doesn't support HTML 5 format video.
+                </video>
+            </div>
+            <div class="header-info">
+                <h1>
+                   <span class="color1">Welcome back,</span> <span class="color2">user!</span>
+                </h1>
+                <p>Here will you find what you're looking for...</p>
+                <button class="btn-1">Read more</button>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="line"></div>
+
+    <!-- Contenedor de los productos de la página. -->
+    <main class="products" id="featured-products">
+
+        <h2>
+            <span class="color2">Featured</span> <span class="color1">Products</span>
+        </h2>
+
+        <div class="products-content" id="cart-products-list">
+            <div class="product">
+                <img src="img/product-image-1.png" class="product-image" alt="">
+                <div class="product-info">
+                    <h3>MSI GeForce RTX 4090 SUPRIM LIQUID X 24GB GDDR6X DLSS3</h3>
+                    <p class="stock">In stock</p>
+                    <p class="price">2388,39€</p>
+                </div>
+                <div class="product-to-cart">
+                    <button class="add-to-cart-btn add-to-cart empty" data-id="1">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/product-image-2.png" class="product-image" alt="">
+                <div class="product-info">
+                    <h3>Procesador Intel Core i9-14900K 6.0GHz Socket 1700 Boxed</h3>
+                    <p class="stock">In Stock</p>
+                    <p class="price">644,95€</p>
+                </div>
+                <div class="product-to-cart">
+                    <button class="add-to-cart-btn add-to-cart empty" data-id="2">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/product-image-3.png" class="product-image" alt="">
+                <div class="product-info">
+                    <h3>Asus ROG MAXIMUS Z690 EXTREME GLACIAL</h3>
+                    <p class="stock">In Stock</p>
+                    <p class="price">1881,99€</p>
+                </div>
+                <div class="product-to-cart">
+                    <button class="add-to-cart-btn add-to-cart empty" data-id="3">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/product-image-4.png" class="product-image" alt="">
+                <div class="product-info">
+                    <h3>Crucial Ballistix Max DDR4 5100MHz PC4-40800 16GB 2x8GB CL19</h3>
+                    <p class="stock">In Stock</p>
+                    <p class="price">1636,69€</p>
+                </div>
+                <div class="product-to-cart">
+                    <button class="add-to-cart-btn add-to-cart empty" data-id="4">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/product-image-5.png" class="product-image" alt="">
+                <div class="product-info">
+                    <h3>Corsair MP600 PRO NH 8TB SSD PCIe Gen4 x4 NVMe M.2 TLC NAND</h3>
+                    <p class="stock">In Stock</p>
+                    <p class="price">1059,00€</p>
+                </div>
+                <div class="product-to-cart">
+                    <button class="add-to-cart-btn add-to-cart empty" data-id="5">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/product-image-6.png" class="product-image" alt="">
+                <div class="product-info">
+                    <h3>ASUS ROG Thor 1600T Gaming 1600W 80 Plus Titanium Modular</h3>
+                    <p class="stock">In Stock</p>
+                    <p class="price">799,72€</p>                
+                </div>
+                <div class="product-to-cart">
+                    <button class="add-to-cart-btn add-to-cart empty" data-id="6">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="line"></div>
+
+    <!-- Sección sobre las ventajas que hay a la hora de comprar en mi Tienda Online. -->
+    <section class="advantages advantages-container">
+
+        <div class="advantages-h2">
+            <h2>
+                <span class="color1">Advantages of buying with</span> <span class="color2">dot</span><span class="color1">.com</span>
+            </h2>
+        </div>
+
+        <div class="advantage">
+            <div class="advantage-icon-image">
+                <img src="img/icon-image-1.jpg" alt="">
+            </div>
+            <div class="advantage-info">
+                <h3>Free returns, always!</h3>
+                <p>If you don't like something or it doesn't convince you, we don't want you to keep it, return it for
+                    free, always. Your satisfaction comes first. Free returns not applicable to items sold by third-party sellers.</p>
+            </div>
+        </div>
+        <div class="advantage">
+            <div class="advantage-icon-image">
+                <img src="img/icon-image-2.jpg" alt="">
+            </div>
+            <div class="advantage-info">
+                <h3>Free shipping from €50 always within 24 hours</h3>
+                <p>As long as the sum of your order exceeds €50, you will benefit from free shipping* and you will
+                    always receive them on the delivery date indicated at the time of purchase. That easy and forever!
+                </p>
+            </div>
+        </div>
+        <div class="advantage">
+            <div class="advantage-icon-image">
+                <img src="img/icon-image-3.jpg" alt="">
+            </div>
+            <div class="advantage-info">
+                <h3>The best price almost always</h3>
+                <p>We know that saving on your purchases is very important and we do our best to offer you the best
+                    prices. Exceptionally, we don't get it, but we always guarantee a good price.</p>
+            </div>
+        </div>
+        <div class="advantage">
+            <div class="advantage-icon-image">
+                <img src="img/icon-image-3.jpg" alt="">
+            </div>
+            <div class="advantage-info">
+                <h3>The best price almost always</h3>
+                <p>We know that saving on your purchases is very important and we do our best to offer you the best
+                    prices. Exceptionally, we don't get it, but we always guarantee a good price.</p>
+            </div>
+        </div>
+        <div class="advantage">
+            <div class="advantage-icon-image">
+                <img src="img/icon-image-3.jpg" alt="">
+            </div>
+            <div class="advantage-info">
+                <h3>The best price almost always</h3>
+                <p>We know that saving on your purchases is very important and we do our best to offer you the best
+                    prices. Exceptionally, we don't get it, but we always guarantee a good price.</p>
+            </div>
+        </div>
+        <div class="advantage">
+            <div class="advantage-icon-image">
+                <img src="img/icon-image-3.jpg" alt="">
+            </div>
+            <div class="advantage-info">
+                <h3>The best price almost always</h3>
+                <p>We know that saving on your purchases is very important and we do our best to offer you the best
+                    prices. Exceptionally, we don't get it, but we always guarantee a good price.</p>
+            </div>
+        </div>
+        <div class="advantage">
+            <div class="advantage-icon-image">
+                <img src="img/icon-image-3.jpg" alt="">
+            </div>
+            <div class="advantage-info">
+                <h3>The best price almost always</h3>
+                <p>We know that saving on your purchases is very important and we do our best to offer you the best
+                    prices. Exceptionally, we don't get it, but we always guarantee a good price.</p>
+            </div>
+        </div>
+    
+    </section>
+ 
+    <h2 class="features-h2">
+        <span class="color1">Coming</span> <span class="color2">soon</span>
+    </h2>
+
+    <!-- Sección sobre los productos que estan en la tienda proximamente. -->
+    <section class="features">
+    
+        <div class="feature">
+            <div class="feature1-image">
+                <img src="img/feature-image-1.png" class="feature-image" width=180px alt="">
+            </div>
+            <div class="feature1-info">
+                <h3>ASUS ROG G16CH-1370KF0080 Intel Core i7-13700KF/32GB/1TB SSD/RTX 4080</h3>
+            </div> 
+        </div>
+        <div class="feature">
+            <div class="feature1-image">
+                <img src="img/feature-image-2.png" width=180px alt="">   
+            </div>
+            <div class="feature1-info">
+                <h3>ASUS ROG Swift OLED PG27AQDM 26.5" OLED QHD 240Hz G-Sync Compatible</h3>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature1-image">
+                <img src="img/feature-image-3.png" width=180px alt="">
+            </div>
+            <div class="feature1-info">
+                <h3>Apple Macbook Pro Apple M3 Pro 12 Cores/36GB/512GB SSD/GPU 18 Cores/16" Space Black</h3>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Pie de página con enlaces relevantes. -->
+    <footer class="footer">
+
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Social Links</h3>
+                <ul>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google+</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Privacy Policy</h3>
+                <ul>
+                    <li><a href="#">Cookies Policy</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">General conditions</a></li>
+                    <li><a href="#">Data management</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Copyright ©</h3>
+                <ul>
+                    <li><a href="#">All rights reserved</a></li>
+                    <li><a href="#">Created by Jacobo Artem</a></li>
+                    <li><a href="#">Copyright © 2024</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Legal Information</h3>
+                <ul>
+                    <li><a href="#">Legal warning</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

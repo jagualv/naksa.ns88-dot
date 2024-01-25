@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jacobo Artem Guinot Almenar">
+    <meta name="copyright" content="Not a Human 2023">
+    <meta name="application-name" content="Shop Online">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../css/contact-style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');</style>
+    <script src="https://kit.fontawesome.com/c85a1183a7.js" crossorigin="anonymous"></script>
+    <script src="../js/app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Contact</title>
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="menu menu-container">
+            <div class="logo">
+                <a href="../index.html"><span class="color2">DOT</span> <span class="color1">.COM</span></a>
+            </div>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <i class="fa fa-bars icon-menu" aria-hidden="true"></i>
+            </label>
+            <nav class="navbar">
+                <ul id="navbar-id">
+                    <li><a href="../index.html" class="index">Home</a></li>
+                    <li><a href="products.html" class="index">Products</a></li>
+                    <li><a href="community.html" class="index">Community</a></li>
+                    <li><a href="downloads.html" class="index">Downloads</a></li>
+                    <li><a href="contact.html" class="index">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="cart-menu">
+                        <i class="fa fa-shopping-cart" id="cart-icon" aria-hidden="true"></i>
+                        <div id="cart">
+                            <table id="cart-list">
+                                <div class="cart-table">
+                                    <thead>
+                                        <tr class="cart-items">
+                                            <th>Product</th>
+                                            <th>Name</th>
+                                            <th>Price</th>
+                                            <th>Quantity</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </div>
+                            </table>
+                            <div id="cart-total">Total = <span id="total-amount" class="color2">0.00</span>€</div>
+                            <a href="#" id="empty-cart" class="btn-2"><span class="color2">Empty </span>Cart</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container mt-5">
+
+        <form id="form">
+            <div class="form-content">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-content">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-content">
+                <label for="message">Message:</label>
+                <textarea class="form-control no-resize" id="message" name="message" rows="26" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning edit-btn">Submit</button>
+        </form>
+
+        <div id="result"></div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Social Links</h3>
+                <ul>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google+</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Privacy Policy</h3>
+                <ul>
+                    <li><a href="#">Cookies Policy</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">General conditions</a></li>
+                    <li><a href="#">Data management</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Copyright ©</h3>
+                <ul>
+                    <li><a href="#">All rights reserved</a></li>
+                    <li><a href="#">Created by Jacobo Artem</a></li>
+                    <li><a href="#">Copyright © 2024</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Legal Information</h3>
+                <ul>
+                    <li><a href="#">Legal warning</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
