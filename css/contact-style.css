@@ -261,11 +261,7 @@ textarea.no-resize {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        padding: 8px 0;
-    }
+@media (max-width:991px) {
 
     .menu {
         padding: 20px;
@@ -297,25 +293,20 @@ textarea.no-resize {
         display: initial;
     }
 
-    .container {
-        width: 95%;
-        margin: auto;
+    .logo {
+        display: none;
     }
 
-    .form-control, .btn {
-        padding: 12px;
-    }
-
-    .form-group label {
-        margin-bottom: 8px;
+    .cart-menu:hover #cart {
+        min-width: 100%;
     }
 
     .footer {
-        height: auto;
-        padding: 20px;
+        padding: 40px;
     }
 
     .footer-content {
         flex-direction: column;
+        text-align: center;
     }
 }
