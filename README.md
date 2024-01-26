@@ -1,6 +1,6 @@
 # Description
 
-Welcome to DOT.COM, your one-stop destination for all PC hardware needs. Specializing in a wide array of PC components, we cater to both enthusiasts and professionals seeking high-quality, reliable parts for building and upgrading computers. 
+Welcome to **DOT**, your one-stop destination for all PC hardware needs. Specializing in a wide array of PC components, we cater to both enthusiasts and professionals seeking high-quality, reliable parts for building and upgrading computers. 
 Our inventory includes a diverse range of products, from cutting-edge processors and high-performance graphics cards to efficient cooling solutions and robust storage options.
 
 # Table of Contents
